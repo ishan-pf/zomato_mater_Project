@@ -1,0 +1,8 @@
+{
+    "credentials": {
+        "fullname":"op singh",
+        "email": "guptaioosshss984@gmail.com",
+        "password": "Ishan2001@",
+        "phoneNumber":1234567899
+    }
+}
