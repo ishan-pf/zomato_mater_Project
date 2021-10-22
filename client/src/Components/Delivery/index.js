@@ -1,10 +1,13 @@
 import React from 'react'
+import DeliveryCarousal from './DeliveryCarousal'
 
 const Delivery = () => {
     return (
+        <>  
         <div>
-            
-        </div>
+            <DeliveryCarousal />
+            </div>
+        </>
     )
 }
 

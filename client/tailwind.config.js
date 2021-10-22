@@ -20,7 +20,7 @@ module.exports = {
     },
     fontFamily: {
 
-      'body': "Open Sans"
+      'body': ["Okra" , "Helvetica", 'sans-serif']
      }
   },
   variants: {

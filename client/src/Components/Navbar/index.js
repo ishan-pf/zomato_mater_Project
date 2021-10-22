@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React,{ useState,useEffect } from 'react'
 import { FaPizzaSlice } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoCaretDownSharp } from "react-icons/io5";
@@ -33,6 +33,8 @@ function Navbar() {
     const NavMD = () => {
 
         const [dropdown , setDropdown] = useState(false);
+
+       
 
         const changedropdown = ()=>{
            

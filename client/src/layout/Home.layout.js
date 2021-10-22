@@ -6,10 +6,14 @@ function HomeLayout(props) {
         <div>
             <div className=" container mx-auto lg:px-20">
                 <Navbar />
-                {/* {props.children} */}
                 <FoodTab />
+              
+               
             </div>
-            
+            <hr className="relative top-6 hidden md:block" />
+            <div className="container-md mx-auto lg:px-40 md:pr-16 md:bg-gray-100 md:h-80 lg:h-96">
+            {props.children}
+            </div>
         </div>
     )
 }
